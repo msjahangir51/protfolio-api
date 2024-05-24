@@ -4,9 +4,6 @@ const createError = require("http-errors")
 const multer = require("multer");
 const { projectModel } = require("./models/projects.model");
 const app = express();
-// app.use(cors());
-
-const cors = require('cors');
 const corsOptions ={
     origin: "*", 
     credentials:true,            //access-control-allow-credentials:true
